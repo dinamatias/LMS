@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" 
+              type="text/css"
+              href="00_css.css"/>
+        <style>
+            /*p {
+                background-color: aqua;
+                color: brown;
+                font-size: 30px;
+            }*/
+            #meu_paragrafo {
+                background-color: aqua;
+                color: brown;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- método inline -->
+        <p
+            style="
+                color: blue;
+                font-size: 40px;
+            "
+        >
+            Este é um parágrafo com CSS inline!
+        </p>
+
+        <!-- método folha de estilo interna -->
+        <p id="meu_paragrafo">
+            Este é um parágrafo com CSS interno!
+        </p>
+
+        <!-- método folha de estilo externa -->
+        <p class="classe_paragrafo">
+            Este é um parágrafo com CSS exteno!
+        </p>
+    </body>
+</html>
